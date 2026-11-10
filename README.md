@@ -1,8 +1,21 @@
 # Per-Screen Workspaces
 
-A GNOME Shell extension that gives every monitor its **own independent workspaces** ("Spaces"), like macOS.
+**Independent workspaces on every monitor for GNOME Shell, like macOS Spaces.**
 
-GNOME/Mutter has one active workspace shared by all monitors. Switching on one screen switches them all. With this extension, each screen switches on its own.
+By default, GNOME has one active workspace shared by all screens: switching on one screen switches them all. With this extension, each monitor has its own workspaces and switches on its own.
+
+![Independent workspaces on every screen](media/screenshot.png)
+
+### Each screen switches on its own
+![Switching spaces on one screen at a time](media/switch.gif)
+
+### Maximize = its own space (like the macOS green button)
+![A maximized window gets its own space](media/maximize.gif)
+
+### Add, remove and reorder spaces per screen
+![Adding and removing spaces on one screen](media/spaces.gif)
+
+Install it from [extensions.gnome.org](https://extensions.gnome.org/extension/11718/per-screen-workspaces/).
 
 ## Features
 

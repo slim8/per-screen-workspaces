@@ -1,7 +1,7 @@
 {
   "uuid": "per-screen-workspaces@odin",
   "name": "Per-Screen Workspaces",
-  "description": "macOS-like Spaces per monitor: separate spaces on each screen, top bar with spaces indicator on every screen (scroll to switch), add/remove spaces per screen, maximize/fullscreen opens its own space, 3-finger swipe and Ctrl+Alt+Left/Right switch only the screen under the pointer.",
+  "description": "Independent workspaces on every monitor, like macOS Spaces.\n\nBy default GNOME has one active workspace shared by all screens: switching on one screen switches them all. With Per-Screen Workspaces, each monitor has its own workspaces and switches on its own.\n\nFeatures:\n• Separate workspaces (spaces) per monitor, each with its own count, remembered per screen\n• A top bar with a workspace indicator on every monitor: scroll to switch, click a dot to go there, drag to reorder, right-click to remove, + to add\n• Maximize or full-screen a window and it gets its own space, like the macOS green button; restore or close it to go back\n• Ctrl+Alt+Left/Right, Super+Page Up/Down and the 3-finger touchpad swipe switch only the screen under the pointer\n• Ctrl+Alt+= adds a space, Ctrl+Alt+- removes the current one\n• Your workspace settings (dynamic workspaces, workspaces on primary only, number of workspaces) are restored when the extension is disabled\n\nGreat for multi-monitor setups: dual screen, laptop + external display, ultrawide + second screen.\n\nBugs and ideas: https://github.com/slim8/per-screen-workspaces/issues",
   "shell-version": [
     "46"
   ],
@@ -11,5 +11,6 @@
   ],
   "version": 3,
   "settings-schema": "org.gnome.shell.extensions.per-screen-workspaces",
-  "url": "https://github.com/slim8/per-screen-workspaces"
+  "url": "https://github.com/slim8/per-screen-workspaces",
+  "version-name": "1.1"
 }

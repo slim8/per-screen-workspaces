@@ -1,0 +1,42 @@
+.pswp-indicator {
+  spacing: 5px;
+  padding: 0 8px;
+}
+.pswp-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+.pswp-dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.pswp-dot.pswp-active {
+  width: 22px;
+  background-color: #ffffff;
+}
+.pswp-full {
+  padding: 1px 3px;
+  border-radius: 5px;
+}
+.pswp-full:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.pswp-full.pswp-active {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.pswp-add {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 0 2px;
+}
+.pswp-add:hover {
+  color: #ffffff;
+}
+.pswp-clock {
+  font-weight: bold;
+}
+.pswp-dragging,
+.pswp-dot.pswp-dragging {
+  background-color: #8ab4f8;
+}

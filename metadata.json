@@ -1,0 +1,15 @@
+{
+  "uuid": "per-screen-workspaces@odin",
+  "name": "Per-Screen Workspaces",
+  "description": "macOS-like Spaces per monitor: separate spaces on each screen, top bar with spaces indicator on every screen (scroll to switch), add/remove spaces per screen, maximize/fullscreen opens its own space, 3-finger swipe and Ctrl+Alt+Left/Right switch only the screen under the pointer.",
+  "shell-version": [
+    "46"
+  ],
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "version": 3,
+  "settings-schema": "org.gnome.shell.extensions.per-screen-workspaces",
+  "url": "https://github.com/slim8/per-screen-workspaces"
+}

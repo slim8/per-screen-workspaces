@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.per-screen-workspaces" path="/org/gnome/shell/extensions/per-screen-workspaces/">
+    <key name="space-counts" type="a{si}">
+      <default>{}</default>
+      <summary>Number of normal spaces per monitor (key = monitor geometry WxH+X+Y)</summary>
+    </key>
+    <key name="default-spaces" type="i">
+      <default>2</default>
+      <range min="1" max="16"/>
+      <summary>Spaces for a monitor seen for the first time</summary>
+    </key>
+    <key name="maximize-to-new-space" type="b">
+      <default>true</default>
+      <summary>Maximized windows get their own space (fullscreen always does)</summary>
+    </key>
+    <key name="panel-on-all-monitors" type="b">
+      <default>true</default>
+      <summary>Show a top bar with spaces indicator and clock on every monitor</summary>
+    </key>
+    <key name="debug-log" type="b">
+      <default>false</default>
+      <summary>Also log every space switch (verbose) to ~/.local/state/per-screen-workspaces/extension.log</summary>
+    </key>
+    <key name="add-space" type="as">
+      <default><![CDATA[['<Control><Alt>equal']]]></default>
+      <summary>Add a space on the monitor under the pointer</summary>
+    </key>
+    <key name="remove-space" type="as">
+      <default><![CDATA[['<Control><Alt>minus']]]></default>
+      <summary>Remove the current space on the monitor under the pointer</summary>
+    </key>
+  </schema>
+</schemalist>
